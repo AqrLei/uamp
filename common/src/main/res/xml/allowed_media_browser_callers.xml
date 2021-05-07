@@ -54,7 +54,7 @@ Adding New Keys:
   Spaces and newlines are ignored.
 -->
 <allowed_callers>
-    <signature
+    <!--<signature
         name="Android Auto"
         package="com.google.android.projection.gearhead">
         <key release="false">
@@ -107,5 +107,5 @@ Adding New Keys:
         <key release="true">
             74:B6:FB:F7:10:E8:D9:0D:44:D3:40:12:58:89:B4:23:06:A6:2C:43:79:D0:E5:A6:62:20:E3:A6:8A:BF:90:E2
         </key>
-    </signature>
+    </signature>-->
 </allowed_callers>

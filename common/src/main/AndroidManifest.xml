@@ -19,6 +19,7 @@
     package="com.example.android.uamp.media">
 
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application>
@@ -36,11 +37,6 @@
                 <action android:name="android.intent.action.MEDIA_BUTTON" />
             </intent-filter>
         </receiver>
-
-        <provider
-            android:name=".library.AlbumArtContentProvider"
-            android:authorities="com.example.android.uamp"
-            android:exported="true" />
 
     </application>
 </manifest>
